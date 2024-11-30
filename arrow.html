@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow   
+ Function</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>   
+
+    <header>
+        <h1>ARROW FUNCION</h1>
+        <nav>
+          <ul>
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="funcion.html">Función</a></li>
+              <li><a href="arrow.html">Arrow</a></li>
+              <li><a href="pintar.html">Pintar</a></li>
+              <li><a href="colores.html">Colores</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Ejercicio 2</h2>
+            <p>
+                <strong>Función tradicional:</strong>
+                <pre>
+                    let suma = function(a, b) {
+                        return a + b;
+                    }
+                </pre>
+            </p>
+
+            <p>
+                <strong>Arrow funcion de una línea:</strong>
+                <pre>
+                    const suma = (a, b) => a + b;
+                </pre>
+            </p>
+
+            <p>
+                <strong>Resultado:</strong>
+                <label for="num1">Número 1:</label>
+                <input type="number" id="num1">
+                <label for="num2">Número 2:</label>
+                <input type="number" id="num2">
+                <button onclick="calcular()">Calcular</button>   
+
+                <div id="resultado"></div>
+            </p>
+        </section>
+    </main>
+
+    <script src="assets/js/2_arrow.js"></script>
+</body>
+</html>

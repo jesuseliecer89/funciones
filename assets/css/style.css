@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type:   
+ none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  }
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color:   
+ #fff;
+    text-align: center;
+    padding:   
+ 2rem;
+}
+
+/* Sección principal */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Sección del ejercicio */
+section {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+/* Código fuente */
+pre {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+/* Botón */
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Resultado */
+#resultado {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    main {
+        padding: 1rem;
+    }
+    section {
+        padding: 1rem;
+    }
+}
+/* css pagina colores.html */
+
+.cuadro {
+  width: 200px;
+  height: 200px;
+}
+
+#azul {
+  background-color: blue;
+}
+
+#rojo {
+  background-color: red;
+}
+
+#verde {
+  background-color: green;
+}
+
+#amarillo {
+  background-color: yellow;
+}
+
+#key {
+  background-color: white;
+  border: 1px solid black;
+}
